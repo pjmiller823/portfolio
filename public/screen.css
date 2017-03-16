@@ -3,6 +3,102 @@ html {
 }
 
 body {
+  background-color: #050e18;
   margin: 0;
-  font: 16px / 1 sans-serif;
+  font: 16px / 1;
+  font-family: 'roboto'
+}
+
+header {
+  background-image: url("/images/space.png");
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: column;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.introduction img {
+  height: 140px;
+  margin-bottom: 145px;
+}
+
+header h1 {
+  background-color: #cacaca;
+  margin: 0;
+  margin-left: 10px;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  font-size: 20px;
+  opacity: 0.5;
+  height: 60px;
+}
+
+header p {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.pictures {
+  display: flex;
+  background-color: #131414;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 0px;
+  background-opcity: 0.5
+}
+
+.pictures img {
+  height: 150px;
+  width: 180px;
+  padding-right: 0;
+}
+
+article {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+article img {
+  width: calc(100%);
+}
+
+article .title {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+article .dates {
+  font-size: 12px;
+}
+
+article p {
+  font-size: 12px;
+}
+.connect {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: 10px;
 }
