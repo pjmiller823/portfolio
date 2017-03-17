@@ -7,16 +7,21 @@ body {
   margin: 0;
   font: 16px / 1;
   font-family: 'roboto'
+  display: flex;
+  justify-content: center;
 }
 
 header {
   background-image: url("/images/space.png");
+  background-repeat: no-repeat;
+  background-position: center;
   height: 600px;
   display: flex;
   justify-content: center;
   justify-content: space-around;
   align-content: center;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .introduction {
@@ -24,6 +29,7 @@ header {
   flex-direction: row;
   justify-content: center;
   margin-top: 70px;
+  margin-bottom: 48px;
 }
 
 .introduction img {
@@ -49,26 +55,73 @@ header p {
 
 .pictures {
   display: flex;
-  background-color: #131414;
+  flex-wrap: wrap;
+  background-color: #050e18;
   justify-content: space-around;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 8px;
   padding-right: 8px;
   margin-bottom: 0px;
-  background-opcity: 0.5
+  background-opcity: 0.5;
 }
 
 .pictures img {
   height: 150px;
-  width: 180px;
+  max-width: 180px;
   padding-right: 0;
+  margin: 3px;
+}
+
+.react {
+  background-image: url("images/react.png");
+  background-size: cover;
+  background-position: center;
+  height: 60px;
+  min-width: (100% - 20px);
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.code {
+  background-image: url("images/code.png");
+  height: 60px;
+  min-width: (100% - 20px);
+  margin-right: 10px;
+  margin-left: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top: 10px;
+}
+
+.keep-reading {
+  color: white;
+  background-color: blue;
+  width: 165px;
+  border-radius: 5px;
+  position: absolute;
+  right: 2em;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.keep-reading h3 {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0.2px;
 }
 
 article {
   background-color: white;
   margin: 10px;
   padding: 10px;
+  margin-top: 0
 }
 
 article img {
@@ -87,6 +140,7 @@ article .dates {
 article p {
   font-size: 12px;
 }
+
 .connect {
   color: white;
   font-size: 20px;
@@ -94,8 +148,6 @@ article p {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
-
 
 footer {
   color: white;
