@@ -3,114 +3,79 @@ html {
 }
 
 body {
-  background-color: #050e18;
+  background-image: url("images/background.jpg");
   margin: 0;
   font: 16px / 1;
   font-family: 'roboto'
   display: flex;
+  justify-content: center;
+  color: #525d68
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 100px;
+  max-width: 870px;
+  margin: auto;
+  border-bottom: 1px solid #ada9a4
+}
+
+.links a:hover {color: #e5c1b9}
+
+.links {
+  padding-left: 20px;
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.links a {
+  align-self: flex-end;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
 }
 
 header {
-  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9mWGmxWoLavQnyUL9RrZ9rD-_uKg-YDR5e0OuaKf5QYSzk1En");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.introduction {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 70px;
-  margin-bottom: 48px;
-}
-
-.introduction img {
-  height: 140px;
-  margin-bottom: 10px;
-}
-
-header h1 {
-  color: black;
-  margin: 0;
-  margin-left: 10px;
-  padding-left: 0.4em;
-  padding-right: 0.4em;
-  font-size: 20px;
-  opacity: 0.5;
-  height: 60px;
-}
-
-header p {
-  font-size: 12px;
-  font-weight: normal;
-  margin-left: 20px;
+  text-align: center;
 }
 
 main {
   display: flex;
 }
 
-.banner {
-  background-image: url("images/monument.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  height: 100px;
-}
-
-.sidebar {
-  min-height: 100%;
-}
-
-.rss {
-  color: white;
-  background-color: blue;
-  border: 2px solid white;
-  padding-bottom: 20px
-}
-
 article {
-  width: 400px;
-  background-color: white;
-  margin: 10px;
-  padding: 10px;
-  margin-top: 10px;
-}
-
-article .title {
-  font-size: 15px;
-  font-weight: bold;
-}
-
-article .dates {
-  font-size: 12px;
-}
-
-article p {
-  font-size: 12px;
-}
-
-.connect {
-  color: white;
-  font-size: 20px;
-  text-align: center;
+  border: 2px solid #647772;
+  background-color: #ada9a4;
+  width: 40%;
+  margin: auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
+  padding: 20px;
+  border-radius: 10px;
 }
 
 footer {
-  color: white;
-  text-align: center;
+  background-color: #b2aba9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #161918
+}
+
+.content {
+  background-color: #aaafa8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.8;
+}
+
+footer p {
   font-size: 10px;
-}*/
+}
