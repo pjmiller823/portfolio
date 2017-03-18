@@ -58,6 +58,11 @@ article {
   border-radius: 10px;
 }
 
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  padding-right: 5px;
+}
 footer {
   background-color: #b2aba9;
   display: flex;
