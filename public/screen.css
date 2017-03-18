@@ -8,20 +8,17 @@ body {
   font: 16px / 1;
   font-family: 'roboto'
   display: flex;
-  justify-content: center;
 }
 
 header {
-  background-image: url("/images/space.png");
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9mWGmxWoLavQnyUL9RrZ9rD-_uKg-YDR5e0OuaKf5QYSzk1En");
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
+  background-size: cover;
+  height: 200px;
   display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  align-content: center;
-  flex-direction: column;
-  margin-bottom: 50px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .introduction {
@@ -34,11 +31,11 @@ header {
 
 .introduction img {
   height: 140px;
-  margin-bottom: 145px;
+  margin-bottom: 10px;
 }
 
 header h1 {
-  background-color: #cacaca;
+  color: black;
   margin: 0;
   margin-left: 10px;
   padding-left: 0.4em;
@@ -51,81 +48,40 @@ header h1 {
 header p {
   font-size: 12px;
   font-weight: normal;
+  margin-left: 20px;
 }
 
-.pictures {
+main {
   display: flex;
-  flex-wrap: wrap;
-  background-color: #050e18;
-  justify-content: space-around;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 8px;
-  padding-right: 8px;
-  margin-bottom: 0px;
-  background-opcity: 0.5;
 }
 
-.pictures img {
-  height: 150px;
-  max-width: 180px;
-  padding-right: 0;
-  margin: 3px;
-}
-
-.react {
-  background-image: url("images/react.png");
-  background-size: cover;
+.banner {
+  background-image: url("images/monument.jpeg");
+  background-repeat: no-repeat;
   background-position: center;
-  height: 60px;
-  min-width: (100% - 20px);
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-bottom: 0;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
 }
 
-.code {
-  background-image: url("images/code.png");
-  height: 60px;
-  min-width: (100% - 20px);
-  margin-right: 10px;
-  margin-left: 10px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-top: 10px;
+.sidebar {
+  min-height: 100%;
 }
 
-.keep-reading {
+.rss {
   color: white;
   background-color: blue;
-  width: 165px;
-  border-radius: 5px;
-  position: absolute;
-  right: 2em;
-  padding: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.keep-reading h3 {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 0.2px;
+  border: 2px solid white;
+  padding-bottom: 20px
 }
 
 article {
+  width: 400px;
   background-color: white;
   margin: 10px;
   padding: 10px;
-  margin-top: 0
-}
-
-article img {
-  width: calc(100%);
+  margin-top: 10px;
 }
 
 article .title {
@@ -147,10 +103,14 @@ article p {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
 }
 
 footer {
   color: white;
   text-align: center;
   font-size: 10px;
-}
+}*/
